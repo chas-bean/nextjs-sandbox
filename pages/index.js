@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Chas's NextJS Sandbox.&nbsp;Get started by editing&nbsp;
+            Chas&apos;s NextJS Sandbox.&nbsp;Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
