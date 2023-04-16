@@ -6,6 +6,8 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const message = "Chas's NextJS Sandbox. Get started by editing ";
+  
   return (
     <>
       <Head>
@@ -17,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Chas&apos;s NextJS Sandbox.&nbsp;Get started by editing&nbsp;
+            {message}
             <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
